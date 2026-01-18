@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS COLOR GENERATOR</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./colorgen.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header-top">
+        <span class="material-symbols-outlined"> diamond_shine </span>
+        <p>Free color palette generator</p>
+      </div>
+      <h1 class="header-text">
+        Instant five-color palettes for design and deployment
+      </h1>
+      <p class="header-description">
+        Create clean color combinations in seconds and copy their hex codes
+        directly into your CSS or design tools.
+      </p>
+      <div class="button-container">
+        <button id="button">
+          <span class="btn-icon material-symbols-outlined">autorenew</span
+          >Generate Color
+        </button>
+      </div>
+    </div>
+
+    <div class="palette">
+      <div class="color-card" id="color-card-1">
+        <div class="color-preview" id="color-preview-1"></div>
+        <div class="color-meta">
+          <span class="hex-code" id="hex-1">HEX CODE</span>
+          <button class="copy-btn" id="copy-1" aria-label="Copy color">
+            <span class="material-symbols-outlined"> content_copy </span>
+          </button>
+        </div>
+      </div>
+
+      <div class="color-card" id="color-card-2">
+        <div class="color-preview" id="color-preview-2"></div>
+        <div class="color-meta">
+          <span class="hex-code" id="hex-2">HEX CODE</span>
+          <button class="copy-btn" id="copy-2" aria-label="Copy color">
+            <span class="material-symbols-outlined"> content_copy </span>
+          </button>
+        </div>
+      </div>
+
+      <div class="color-card" id="color-card-3">
+        <div class="color-preview" id="color-preview-3"></div>
+        <div class="color-meta">
+          <span class="hex-code" id="hex-3">HEX CODE</span>
+          <button class="copy-btn" id="copy-3" aria-label="Copy color">
+            <span class="material-symbols-outlined"> content_copy </span>
+          </button>
+        </div>
+      </div>
+
+      <div class="color-card" id="color-card-4">
+        <div class="color-preview" id="color-preview-4"></div>
+        <div class="color-meta">
+          <span class="hex-code" id="hex-4">HEX CODE</span>
+          <button class="copy-btn" id="copy-4" aria-label="Copy color">
+            <span class="material-symbols-outlined"> content_copy </span>
+          </button>
+        </div>
+      </div>
+
+      <div class="color-card" id="color-card-5">
+        <div class="color-preview" id="color-preview-5"></div>
+        <div class="color-meta">
+          <span class="hex-code" id="hex-5">HEX CODE</span>
+          <button class="copy-btn" id="copy-5" aria-label="Copy color">
+            <span class="material-symbols-outlined"> content_copy </span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./colorgen.js"></script>
+  </body>
+</html>
